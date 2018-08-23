@@ -158,9 +158,7 @@ class Index extends React.Component {
               learned to use Auth0 for user login and Material UI for styling.
               <br /> View the live site here:{' '}
               <b>
-                <a href="http://www.myhealth.jenhurd.com">
-                  www.myhealth.jenhurd.com
-                </a>
+                <a href="myhealth.jenhurd.com">myhealth.jenhurd.com</a>
               </b>
             </p>
 
@@ -180,9 +178,7 @@ class Index extends React.Component {
               function, and functions in the modals.
               <br /> View the live site here:{' '}
               <b>
-                <a href="http://www.freelancer.jenhurd.com">
-                  www.freelancer.jenhurd.com
-                </a>
+                <a href="freelancer.jenhurd.com">freelancer.jenhurd.com</a>
               </b>
             </p>
             <footer className="major" />
