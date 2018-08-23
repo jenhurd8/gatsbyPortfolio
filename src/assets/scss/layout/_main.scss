@@ -100,3 +100,12 @@
 .myParagraphs {
   text-align: left;
 }
+#cta {
+  display: flex;
+  flex-direction: column;
+}
+.content2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}

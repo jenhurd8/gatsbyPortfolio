@@ -3,16 +3,8 @@ import Link from 'gatsby-link'
 import get from 'lodash/get'
 import Helmet from 'react-helmet'
 import Waypoint from 'react-waypoint'
-
 import Header from '../components/Header'
 import Nav from '../components/Nav'
-import pic01 from '../assets/images/pic01.jpg'
-
-import { library } from '@fortawesome/fontawesome-svg-core'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faStroopwafel } from '@fortawesome/free-solid-svg-icons'
-
-library.add(faStroopwafel)
 
 class Index extends React.Component {
   constructor(props) {
@@ -160,13 +152,15 @@ class Index extends React.Component {
               </li>
             </ul>
             <p className="myParagraphs">
-              This was my Personal Project. A healthcare history tracking
-              application with medical provider search feature. Created using:
-              React, Redux, JavaScript, Node, Git/Github, and Material UI. I
+              Created using: React, Redux, JavaScript, Node, Git/Github, and
+              Material UI. This was my Personal Project. A healthcare history
+              tracking application with medical provider search feature. I
               learned to use Auth0 for user login and Material UI for styling.
               <br /> View the live site here:{' '}
               <b>
-                <a href=" http://www.jenhurd.com/">www.jenhurd.com</a>
+                <a href="http://www.myhealth.jenhurd.com">
+                  www.myhealth.jenhurd.com
+                </a>
               </b>
             </p>
 
@@ -178,51 +172,72 @@ class Index extends React.Component {
               </li>
             </ul>
             <p className="content">
-              Nam elementum nisl et mi a commodo porttitor. Morbi sit amet nisl
-              eu arcu faucibus hendrerit vel a risus. Nam a orci mi, elementum
-              ac arcu sit amet, fermentum pellentesque et purus. Integer maximus
-              varius lorem, sed convallis diam accumsan sed. Etiam porttitor
-              placerat sapien, sed eleifend a enim pulvinar faucibus semper quis
-              ut arcu. Ut non nisl a mollis est efficitur vestibulum. Integer
-              eget purus nec nulla mattis et accumsan ut magna libero. Morbi
-              auctor iaculis porttitor. Sed ut magna ac risus et hendrerit
-              scelerisque. Praesent eleifend lacus in lectus aliquam porta. Cras
-              eu ornare dui curabitur lacinia.
+              Created using: React, Redux, JavaScript, Node, Git/Github. A full
+              stack application to help Freelancers and Employers connect. This
+              was our Group Project. Completed and maintained the Redux portion
+              of our application Setup the logic on the dashboard combining and
+              sorting the employers and freelancers, the applying to jobs
+              function, and functions in the modals.
+              <br /> View the live site here:{' '}
+              <b>
+                <a href="http://www.freelancer.jenhurd.com">
+                  www.freelancer.jenhurd.com
+                </a>
+              </b>
             </p>
-            <footer className="major">
-              {/* <ul className="actions">
-                <li>
-                  <Link to="/generic" className="button">
-                    Learn More
-                  </Link>
-                </li>
-              </ul> */}
-            </footer>
+            <footer className="major" />
           </section>
 
           <section id="cta" className="main special">
             <header className="major">
-              <h2>Congue imperdiet</h2>
-              <p>
-                Donec imperdiet consequat consequat. Suspendisse feugiat congue
-                <br />
-                posuere. Nulla massa urna, fermentum eget quam aliquet.
-              </p>
+              <div className="content2">
+                <div>
+                  <h2>Contact </h2>
+                  <ul className="icons">
+                    <li>
+                      <h3>
+                        <b> Email: </b>
+
+                        <a href="mailto:jenhurd8@gmail.com" target="_top">
+                          jenhurd8@gmail.com
+                        </a>
+                      </h3>
+
+                      <dd />
+                    </li>
+                  </ul>
+                </div>
+                <div>
+                  <h2>Social Media </h2>
+                  <ul className="icons">
+                    <li>
+                      <a
+                        href="https://www.linkedin.com/in/jenhurd/"
+                        className="icon fa-linkedin alt"
+                      >
+                        <span className="label">Linked In</span>
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        href="https://twitter.com/jjenjjenjjen2"
+                        className="icon fa-twitter alt"
+                      >
+                        <span className="label">Twitter</span>
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        href="https://github.com/jenhurd8"
+                        className="icon fa-github alt"
+                      >
+                        <span className="label">GitHub</span>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
             </header>
-            <footer className="major">
-              <ul className="actions">
-                <li>
-                  <Link to="/generic" className="button special">
-                    Get Started
-                  </Link>
-                </li>
-                <li>
-                  <Link to="/generic" className="button">
-                    Learn More
-                  </Link>
-                </li>
-              </ul>
-            </footer>
           </section>
         </div>
       </div>
