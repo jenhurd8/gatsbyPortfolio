@@ -145,26 +145,6 @@ class Index extends React.Component {
               <h2>Projects</h2>
             </header>
             <ul className="statistics">
-              <li className="style1">
-                <img src="http://res.cloudinary.com/jjenjjenjjen/image/upload/c_scale,w_500/v1534906162/jenhurdcom_ijdelt.png" />
-                <strong>My Health</strong>
-                Personal Project
-              </li>
-            </ul>
-            <p className="myParagraphs">
-              Created using: React, Redux, JavaScript, Node, Git/Github, and
-              Material UI. This was my Personal Project. A healthcare history
-              tracking application with medical provider search feature. I
-              learned to use Auth0 for user login and Material UI for styling.
-              <br /> View the live site here:{' '}
-              <b>
-                <a href="http://myhealth.jenhurd.com">
-                  http://myhealth.jenhurd.com
-                </a>
-              </b>
-            </p>
-
-            <ul className="statistics">
               <li className="style2">
                 <img src="http://res.cloudinary.com/jjenjjenjjen/image/upload/c_scale,w_500/v1534906171/Freelancer_bonauw.png" />
                 <strong>Freelancer</strong>
@@ -174,10 +154,10 @@ class Index extends React.Component {
             <p className="content">
               Created using: React, Redux, JavaScript, Node, Git/Github. A full
               stack application to help Freelancers and Employers connect. This
-              was our Group Project. Completed and maintained the Redux portion
-              of our application Setup the logic on the dashboard combining and
-              sorting the employers and freelancers, the applying to jobs
-              function, and functions in the modals.
+              was our Group Project. I completed and maintained the Redux
+              portion of our application, setup the logic on the dashboard which
+              combined and sorted by date the employers and freelancers, the
+              applying to jobs function, as well as the functions in the modals.
               <br /> View the live site here:{' '}
               <b>
                 <a href="http://freelancer.jenhurd.com">
@@ -185,6 +165,27 @@ class Index extends React.Component {
                 </a>
               </b>
             </p>
+            <ul className="statistics">
+              <li className="style1">
+                <img src="http://res.cloudinary.com/jjenjjenjjen/image/upload/c_scale,w_500/v1534906162/jenhurdcom_ijdelt.png" />
+                <strong>My Health</strong>
+                Personal Project
+              </li>
+            </ul>
+            <p className="content">
+              Created using: React, Redux, JavaScript, Node, Git/Github, and
+              Material UI. This was my Personal Project. A healthcare history
+              tracking application with medical provider search feature. In this
+              project I self-taught Auth0 for user login and Material UI for
+              styling.
+              <br /> View the live site here:{' '}
+              <b>
+                <a href="http://myhealth.jenhurd.com">
+                  http://myhealth.jenhurd.com
+                </a>
+              </b>
+            </p>
+
             <footer className="major" />
           </section>
 
