@@ -15,7 +15,7 @@ const Header = props => (
             alt="Jen"
             style={{ height: '30%', width: '60%', borderRadius: '50%' }}
           />
-          <p>Full Stack Developer from the suburbs of Chicago</p>
+          <p>Web Developer from the suburbs of Chicago</p>
         </div>
         <div>
           <img

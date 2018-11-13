@@ -43,11 +43,11 @@ class Index extends React.Component {
                   <h2>About Me</h2>
                 </header>
                 <p>
-                  Hi! I'm <b>Jennifer Hurd</b>, a Full Stack Developer with a
-                  strong interest in both technology and helping people. I
-                  really enjoy figuring out how the devices we use everyday work
-                  in greater detail and had put these interests to use in my
-                  previous roles in technical support.
+                  Hi! I'm <b>Jennifer Hurd</b>, a Web Developer with a strong
+                  interest in both technology and helping people. I really enjoy
+                  figuring out how the devices we use everyday work in greater
+                  detail and had put these interests to use in my previous roles
+                  in technical support.
                 </p>
                 <p>
                   More recently, I found an interest in coding. Technical
