@@ -6,7 +6,7 @@ const Header = props => (
     <span className="logo">
       <div className="header__main">
         <div>
-          <h1>Jennifer Hurd</h1>
+          <h1>Jennifer Jager</h1>
 
           <img
             src={
