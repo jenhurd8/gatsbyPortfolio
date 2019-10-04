@@ -1,4 +1,4 @@
-Portfolio created while a student at DevMountain.
+Portfolio created while a student at DevMountain. This project showcases both my final group project "Freelancer" and my personal project "My Health".
 
 # gatsby-starter-stellar
 Gatsby starter based on the Stellar site template, designed by [HTML5 UP](https://html5up.net/stellar). Check out https://codebushi.com/gatsby-starters/ for more Gatsby starters and templates.
